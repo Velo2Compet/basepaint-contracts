@@ -5,7 +5,7 @@ pragma solidity ^0.8.17;
 contract SimpleInteraction {
     uint256 public totalInteractions;
 
-    mapping(address => uint256[]) private _userCounts;
+    mapping(address => uint256[]) private _userCounts; // k,df
 
     event Interacted(address indexed user, uint256 userCount, uint256 totalInteractions);
 
