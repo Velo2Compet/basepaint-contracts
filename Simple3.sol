@@ -3,7 +3,7 @@
 pragma solidity ^0.8.17;
 
 contract SimpleInteraction {
-    uint256 public totalInteractions;
+    uint256 public totalInteractions; //blblbl
 
     mapping(address => uint256[]) private _userCounts;
 
